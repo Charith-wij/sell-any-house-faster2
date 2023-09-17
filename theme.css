@@ -75,8 +75,7 @@ ul {
 }
 
 .banner-main {
-    background: linear-gradient(rgb(13 66 84 / 80%),
-            rgb(13 66 84 / 80%)), url(assets/banner-image.jpg) no-repeat;
+    background: linear-gradient(rgb(13 66 84 / 80%), rgb(13 66 84 / 80%)), url(assets/banner-image.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
