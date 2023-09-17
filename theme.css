@@ -1,0 +1,104 @@
+:root {
+    --action-color-1: #1EC91E !important;
+    --action-color-2: #CE2089 !important;
+    --primary-color: #08464B !important;
+    --secondary-color: #0D4254 !important;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar-brand {
+    color: var(--secondary-color) !important;
+}
+
+.form-control {
+    height: 3rem;
+}
+
+.action-color-1 {
+    color: var(--action-color-1);
+}
+
+.action-color-2 {
+    color: var(--action-color-2);
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background: var(--action-color-1);
+    border-color: var(--action-color-1) !important;
+}
+
+.color-primary {
+    color: var(--primary-color);
+}
+
+.secondary-primary {
+    color: var(--secondary-color);
+}
+
+.banner-main .form-control {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+}
+
+.banner-main .btn-primary {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.benefits-section ul {
+    text-align: left;
+}
+
+.benefits-section ul i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    color: var(--action-color-1);
+}
+
+.comparision-section {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.comparision-section table th,
+.comparision-section table td {
+    background-color: transparent !important;
+    color: #ffffff;
+}
+
+.comparision-section table tbody td {
+    text-align: left;
+}
+
+.contact-section {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.contact-section a {
+    color: #ffffff;
+}
