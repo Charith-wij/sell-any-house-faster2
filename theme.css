@@ -13,6 +13,10 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    color: var(--action-color-2) !important;
+}
+
 h2 {
     margin-bottom: 2rem;
 }
@@ -30,11 +34,19 @@ ul {
 }
 
 .action-color-1 {
-    color: var(--action-color-1);
+    color: var(--action-color-1) !important;
 }
 
 .action-color-2 {
-    color: var(--action-color-2);
+    color: var(--action-color-2) !important;
+}
+
+.bg-action-color-1 {
+    background-color: var(--action-color-1) !important;
+}
+
+.bg-action-color-2 {
+    background-color: var(--action-color-2) !important;
 }
 
 .btn {
@@ -49,12 +61,25 @@ ul {
     border-color: var(--action-color-1) !important;
 }
 
+.btn-primary:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color) !important;
+}
+
 .color-primary {
     color: var(--primary-color);
 }
 
 .secondary-primary {
     color: var(--secondary-color);
+}
+
+.banner-main {
+    background: linear-gradient(rgb(13 66 84 / 80%),
+            rgb(13 66 84 / 80%)), url(assets/banner-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .banner-main .form-control {
@@ -72,6 +97,10 @@ ul {
     text-align: left;
 }
 
+.benefits-section ul li {
+    text-indent: -1.4rem;
+}
+
 .benefits-section ul i {
     font-size: 1.5rem;
     font-weight: bold;
@@ -86,7 +115,7 @@ ul {
 
 .comparision-section table th,
 .comparision-section table td {
-    background-color: transparent !important;
+    background-color: transparent;
     color: #ffffff;
 }
 
@@ -94,11 +123,56 @@ ul {
     text-align: left;
 }
 
+.heading-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.bg-circle {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
 .contact-section {
+    background: linear-gradient(rgb(13 66 84 / 80%),
+            rgb(13 66 84 / 80%)), url(assets/form-bg-img.jpg) no-repeat;
     background-color: var(--secondary-color);
     color: #ffffff;
+    background-size: cover;
 }
 
 .contact-section a {
     color: #ffffff;
+}
+
+.footer-section {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
+
+.footer-section .border-bottom {
+    border-color: rgb(255 255 255 / 20%) !important;
+}
+
+.social-section {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1.85rem;
+    gap: 1rem;
+    padding: 0;
+}
+
+.social-section li a {
+    color: var(--action-color-1);
 }
