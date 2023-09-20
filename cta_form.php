@@ -54,7 +54,8 @@ try
     $emailTextHtml .= "</table><hr>";
     $emailTextHtml .= "<p>Have a nice day,<br>Best,<br>Ondrej</p>";
     
-    $mail = new PHPMailer;
+    $mail = new PHPMailer(true);
+    $mail->Port = 587;
     
     $mail->setFrom($fromEmail, $fromName);
     $mail->addAddress($sendToEmail, $sendToName); // you can add more addresses by simply adding another line with $mail->addAddress();
