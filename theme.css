@@ -82,14 +82,12 @@ ul {
 }
 
 .banner-main .form-control {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
     text-align: center;
 }
 
-.banner-main .btn-primary {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+.cta-banner a:hover {
+    color: #ffffff !important;
+    background: var(--action-color-2);
 }
 
 .benefits-section ul {
