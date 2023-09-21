@@ -3,6 +3,7 @@
     --action-color-2: #CE2089 !important;
     --primary-color: #08464B !important;
     --secondary-color: #0D4254 !important;
+    --background-color-1: #F8F9FA !important;
 }
 
 body {
@@ -47,6 +48,10 @@ ul {
 
 .bg-action-color-2 {
     background-color: var(--action-color-2) !important;
+}
+
+.bg-color-1 {
+    background-color: var(--background-color-1);
 }
 
 .btn {
@@ -134,6 +139,12 @@ ul {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+
+.abt-us-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .contact-section {
